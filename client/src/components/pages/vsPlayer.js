@@ -8,7 +8,7 @@ import Error from "../functional/Error";
 import { Redirect } from "react-router-dom";
 
 import socketIOClient from "socket.io-client";
-const ENDPOINT = "https://react-ttt-app.herokuapp.com/";
+const ENDPOINT = "http://localhost:4000/";
 
 class Start extends React.Component {
   constructor(props) {
