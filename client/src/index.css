@@ -539,27 +539,34 @@ input:focus {
       padding-top: 14rem;
     }
   }
+}
 
-  @media screen and (max-width: 450px) {
-    .backbtn {
-      top: 30px;
-      left: unset;
-      right: 30px;
-    }
-    .wrapBoard {
-      height: 62vmax;
-      justify-content: start;
-    }
-    .level {
-      max-width: 50vw;
-      height: auto;
-      align-self: flex-start;
-      margin-left: 20px;
-      padding-top: 25px;
-    }
+@media screen and (max-width: 400px) {
+  .backbtn {
+    top: 30px;
+    left: unset;
+    right: 30px;
+  }
+  .wrapBoard {
+    height: 62vmax;
+    justify-content: start;
+  }
+  .level {
+    max-width: 50vw;
+    height: auto;
+    align-self: flex-start;
+    margin-left: 20px;
+    padding-top: 25px;
+  }
 
-    .score-board {
-      min-width: 100%;
-    }
+  .score-board {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) and (min-height: 750px) {
+  .wrapBoard {
+    height: 62vmax;
+    justify-content: center;
   }
 }
